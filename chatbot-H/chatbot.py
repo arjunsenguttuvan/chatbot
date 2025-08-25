@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-# Load dataset
 df = pd.read_csv("tamilnadu_crop_fertilizer_dataset_with_ph_temp.csv")
+
 
 st.title("🌱 Tamil Nadu Farmer Fertilizer Chatbot")
 
@@ -39,4 +39,5 @@ if st.button("Get Fertilizer Recommendation"):
         st.warning(f"⚠ Your soil pH: {soil_ph}. Recommended range: {ideal_ph}.")
     if temp > 0:
         ideal_temp = best_option["Ideal Temp (°C)"]
+
         st.warning(f"⚠ Your temp: {temp}°C. Recommended range: {ideal_temp}.")
