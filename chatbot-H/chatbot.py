@@ -1,8 +1,15 @@
 import streamlit as st
 import pandas as pd
+import os
 
-df = pd.read_csv("tamilnadu_crop_fertilizer_dataset_with_ph_temp.csv")
+# --- Load dataset safely ---
+file_path = os.path.join(os.path.dirname(__file__), "tamilnadu_crop_fertilizer_dataset_with_ph_temp.csv")
 
+try:
+    df = pd.read_csv(file_path)
+except FileNotFoundError:
+    st.error(f"❌ CSV file not found at: {file_path}")
+    st.stop()
 
 st.title("🌱 Tamil Nadu Farmer Fertilizer Chatbot")
 
@@ -15,7 +22,7 @@ temp = st.number_input("Enter temperature (°C, optional):", min_value=0, max_va
 
 # Step 2: Generate recommendation
 if st.button("Get Fertilizer Recommendation"):
-    options = df[df["Crop"] == crop]
+    options = df[df["Crop"] == crop].copy()  # avoid SettingWithCopyWarning
     
     # Select best (least toxic) fertilizer
     options["tox"] = options["Toxicity Score (1=low,5=high)"].astype(int)
@@ -39,5 +46,4 @@ if st.button("Get Fertilizer Recommendation"):
         st.warning(f"⚠ Your soil pH: {soil_ph}. Recommended range: {ideal_ph}.")
     if temp > 0:
         ideal_temp = best_option["Ideal Temp (°C)"]
-
         st.warning(f"⚠ Your temp: {temp}°C. Recommended range: {ideal_temp}.")
