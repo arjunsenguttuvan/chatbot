@@ -1,24 +1,12 @@
 import streamlit as st
 import pandas as pd
-import os
 
-# --- Load dataset safely ---
-file_path = os.path.join(os.path.dirname(__file__), "tamilnadu_crop_fertilizer_dataset_with_ph_temp.csv")
-
-try:
-    df = pd.read_csv(file_path)
-except FileNotFoundError:
-    st.error(f"❌ CSV file not found at: {file_path}")
-    st.stop()
+# Load dataset
+df = pd.read_csv("tamilnadu_crop_fertilizer_dataset_with_ph_temp.csv")
 
 st.title("🌱 Tamil Nadu Farmer Fertilizer Chatbot")
 
 # Step 1: Get farmer input
-districts = sorted(df["District"].unique()) if "District" in df.columns else [
-    "Chennai", "Coimbatore", "Madurai", "Trichy", "Salem", "Erode", "Thanjavur", "Tirunelveli"
-]
-
-district = st.selectbox("Select your district:", districts)
 crop = st.selectbox("Select your crop:", sorted(df["Crop"].unique()))
 acres = st.number_input("Enter total acres:", min_value=1, step=1)
 
@@ -27,32 +15,28 @@ temp = st.number_input("Enter temperature (°C, optional):", min_value=0, max_va
 
 # Step 2: Generate recommendation
 if st.button("Get Fertilizer Recommendation"):
-    options = df[(df["Crop"] == crop) & (df["District"] == district)].copy() if "District" in df.columns else df[df["Crop"] == crop].copy()
+    options = df[df["Crop"] == crop]
     
-    if options.empty:
-        st.error("❌ No fertilizer recommendation found for this crop in your district.")
-    else:
-        # Select best (least toxic) fertilizer
-        options["tox"] = options["Toxicity Score (1=low,5=high)"].astype(int)
-        best_option = options.loc[options["tox"].idxmin()]
-        
-        # Calculate fertilizer requirement
-        qty, unit = best_option["Recommended Amount per Acre"].split()
-        total_qty = int(qty) * acres
-        
-        # Show result
-        st.subheader("🌾 Fertilizer Recommendation")
-        st.write(f"📍 District: *{district}*")
-        st.write(f"✅ Crop: *{crop}* | Acres: *{acres}*")
-        st.write(f"🥇 Recommended Fertilizer: *{best_option['Fertilizer Name']} ({best_option['Type']})*")
-        st.write(f"📦 Amount Needed: *{total_qty} {unit}*")
-        st.write(f"📝 Notes: {best_option['Notes']}")
-        st.write(f"🌡 Ideal Temp: {best_option['Ideal Temp (°C)']} | 🌱 Ideal pH: {best_option['Ideal pH']}")
-        
-        # Check conditions
-        if soil_ph > 0:
-            ideal_ph = best_option["Ideal pH"]
-            st.warning(f"⚠ Your soil pH: {soil_ph}. Recommended range: {ideal_ph}.")
-        if temp > 0:
-            ideal_temp = best_option["Ideal Temp (°C)"]
-            st.warning(f"⚠ Your temp: {temp}°C. Recommended range: {ideal_temp}.")
+    # Select best (least toxic) fertilizer
+    options["tox"] = options["Toxicity Score (1=low,5=high)"].astype(int)
+    best_option = options.loc[options["tox"].idxmin()]
+    
+    # Calculate fertilizer requirement
+    qty, unit = best_option["Recommended Amount per Acre"].split()
+    total_qty = int(qty) * acres
+    
+    # Show result
+    st.subheader("🌾 Fertilizer Recommendation")
+    st.write(f"✅ Crop: *{crop}* | Acres: *{acres}*")
+    st.write(f"🥇 Recommended Fertilizer: *{best_option['Fertilizer Name']} ({best_option['Type']})*")
+    st.write(f"📦 Amount Needed: *{total_qty} {unit}*")
+    st.write(f"📝 Notes: {best_option['Notes']}")
+    st.write(f"🌡 Ideal Temp: {best_option['Ideal Temp (°C)']} | 🌱 Ideal pH: {best_option['Ideal pH']}")
+    
+    # Check conditions
+    if soil_ph > 0:
+        ideal_ph = best_option["Ideal pH"]
+        st.warning(f"⚠ Your soil pH: {soil_ph}. Recommended range: {ideal_ph}.")
+    if temp > 0:
+        ideal_temp = best_option["Ideal Temp (°C)"]
+        st.warning(f"⚠ Your temp: {temp}°C. Recommended range: {ideal_temp}.")
