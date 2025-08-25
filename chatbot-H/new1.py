@@ -11,7 +11,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # Data Loading
 # ----------------------------
 def load_data(uploaded_file):
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv(fertilizer.csv)
     # Convert cost and efficiency to numeric safely
     df['Cost_per_kg'] = pd.to_numeric(df['Cost_per_kg'], errors='coerce')
     df['Efficiency'] = pd.to_numeric(df['Efficiency'], errors='coerce')
@@ -126,3 +126,4 @@ if uploaded_file:
             st.session_state.messages.append({"role": "assistant", "content": response})
             with st.chat_message("assistant"):
                 st.write(response)
+
