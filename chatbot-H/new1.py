@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import GradientBoostingRegressor   # ✅ changed here
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
@@ -38,7 +38,8 @@ def train_model(df):
     target = df['computed_score']
     X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
 
-    model = RandomForestRegressor(n_estimators=100, random_state=42)
+    # ✅ replaced RandomForest with GradientBoosting
+    model = GradientBoostingRegressor(random_state=42)
     model.fit(X_train, y_train)
 
     y_pred = model.predict(X_test)
@@ -126,5 +127,3 @@ if uploaded_file:
             st.session_state.messages.append({"role": "assistant", "content": response})
             with st.chat_message("assistant"):
                 st.write(response)
-
-
