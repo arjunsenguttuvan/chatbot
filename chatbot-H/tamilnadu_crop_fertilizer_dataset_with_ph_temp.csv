@@ -1,0 +1,241 @@
+State,Crop,Fertilizer Name,Type,"Toxicity Score (1=low,5=high)",Recommended Amount per Acre,Notes,Ideal pH,Ideal Temp (°C)
+Tamil Nadu,Rice,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–7.0,20–30°C
+Tamil Nadu,Rice,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–7.0,20–30°C
+Tamil Nadu,Rice,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–7.0,20–30°C
+Tamil Nadu,Rice,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Compost,Organic,1,1000 kg,Improves soil structure,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–7.0,20–30°C
+Tamil Nadu,Rice,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–7.0,20–30°C
+Tamil Nadu,Groundnut,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,22–28°C
+Tamil Nadu,Groundnut,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,22–28°C
+Tamil Nadu,Banana,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–7.5,25–35°C
+Tamil Nadu,Banana,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–7.5,25–35°C
+Tamil Nadu,Banana,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–7.5,25–35°C
+Tamil Nadu,Banana,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Compost,Organic,1,1000 kg,Improves soil structure,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–7.5,25–35°C
+Tamil Nadu,Banana,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–7.5,25–35°C
+Tamil Nadu,Sugarcane,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,20–32°C
+Tamil Nadu,Sugarcane,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,20–32°C
+Tamil Nadu,Millet,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,25–35°C
+Tamil Nadu,Millet,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,25–35°C
+Tamil Nadu,Millet,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,25–35°C
+Tamil Nadu,Millet,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,25–35°C
+Tamil Nadu,Millet,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,25–35°C
+Tamil Nadu,Cotton,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,21–30°C
+Tamil Nadu,Cotton,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,21–30°C
+Tamil Nadu,Coconut,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Compost,Organic,1,1000 kg,Improves soil structure,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.2–8.0,20–32°C
+Tamil Nadu,Coconut,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.2–8.0,20–32°C
+Tamil Nadu,Turmeric,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Compost,Organic,1,1000 kg,Improves soil structure,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–7.5,20–30°C
+Tamil Nadu,Turmeric,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–7.5,20–30°C
+Tamil Nadu,Pigeon Pea,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,20–35°C
+Tamil Nadu,Pigeon Pea,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,20–35°C
+Tamil Nadu,Black Gram,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,25–35°C
+Tamil Nadu,Black Gram,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,25–35°C
+Tamil Nadu,Green Gram,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,25–35°C
+Tamil Nadu,Sesame,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Compost,Organic,1,1000 kg,Improves soil structure,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–8.0,25–35°C
+Tamil Nadu,Sesame,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–8.0,25–35°C
+Tamil Nadu,Onion,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.0,13–24°C
+Tamil Nadu,Onion,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.0,13–24°C
+Tamil Nadu,Onion,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.0,13–24°C
+Tamil Nadu,Onion,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.0,13–24°C
+Tamil Nadu,Onion,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.0,13–24°C
+Tamil Nadu,Tomato,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.0,18–27°C
+Tamil Nadu,Tomato,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.0,18–27°C
+Tamil Nadu,Brinjal,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Compost,Organic,1,1000 kg,Improves soil structure,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–6.6,22–30°C
+Tamil Nadu,Brinjal,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–6.6,22–30°C
+Tamil Nadu,Chili,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.0,20–30°C
+Tamil Nadu,Chili,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.0,20–30°C
+Tamil Nadu,Chili,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.0,20–30°C
+Tamil Nadu,Chili,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.0,20–30°C
+Tamil Nadu,Chili,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.0,20–30°C
+Tamil Nadu,Okra,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–6.8,22–35°C
+Tamil Nadu,Okra,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–6.8,22–35°C
+Tamil Nadu,Okra,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–6.8,22–35°C
+Tamil Nadu,Okra,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Compost,Organic,1,1000 kg,Improves soil structure,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–6.8,22–35°C
+Tamil Nadu,Okra,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–6.8,22–35°C
+Tamil Nadu,Tapioca,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Compost,Organic,1,1000 kg,Improves soil structure,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.5–7.0,25–29°C
+Tamil Nadu,Tapioca,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.5–7.0,25–29°C
+Tamil Nadu,Sunflower,Urea (46% N),Chemical,4,50 kg,Split application recommended,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,DAP (18-46-0),Chemical,3,40 kg,Basal application,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Compost,Organic,1,1000 kg,Improves soil structure,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,6.0–7.5,20–28°C
+Tamil Nadu,Sunflower,Neem Cake,Organic,1,400 kg,Pest and nematode control,6.0–7.5,20–28°C
+Tamil Nadu,Maize,Urea (46% N),Chemical,4,50 kg,Split application recommended,5.8–7.0,18–27°C
+Tamil Nadu,Maize,DAP (18-46-0),Chemical,3,40 kg,Basal application,5.8–7.0,18–27°C
+Tamil Nadu,Maize,NPK (20-20-0),Chemical,3,45 kg,Balanced nutrient supply,5.8–7.0,18–27°C
+Tamil Nadu,Maize,NPK (19-19-19),Chemical,3,40 kg,Foliar application possible,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Compost,Organic,1,1000 kg,Improves soil structure,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Farmyard Manure (FYM),Organic,1,1500 kg,Adds organic matter,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Vermicompost,Organic,1,1200 kg,Boosts soil microbes,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Azospirillum Biofertilizer,Biofertilizer,1,5 kg,Nitrogen fixation,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Rhizobium Biofertilizer,Biofertilizer,1,5 kg,Legume nitrogen fixer,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Phosphate Solubilizing Bacteria (PSB),Biofertilizer,1,5 kg,Improves P uptake,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Gypsum,Soil Amendment,2,200 kg,Improves pod formation in groundnut,5.8–7.0,18–27°C
+Tamil Nadu,Maize,Neem Cake,Organic,1,400 kg,Pest and nematode control,5.8–7.0,18–27°C
